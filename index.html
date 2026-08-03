@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menú del Comedor</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 id="school-name">Menú del Comedor</h1>
+    <p class="subtitle">Menú mensual del comedor escolar</p>
+  </header>
+
+  <main>
+    <nav class="month-nav">
+      <button id="prev-month" class="nav-btn" aria-label="Mes anterior">‹</button>
+      <select id="month-select" aria-label="Seleccionar mes"></select>
+      <button id="next-month" class="nav-btn" aria-label="Mes siguiente">›</button>
+    </nav>
+
+    <div id="calendar" class="calendar"></div>
+
+    <p id="empty-state" class="empty-state" hidden>
+      No hay menú cargado para este mes.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Actualizado desde GitHub · <span id="last-updated"></span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

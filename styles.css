@@ -1,0 +1,232 @@
+:root {
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --surface-alt: #eef2f7;
+  --text: #1f2933;
+  --text-muted: #647084;
+  --accent: #2f855a;
+  --accent-soft: #e6f4ec;
+  --border: #dce3ec;
+  --today: #fff7e6;
+  --today-border: #f0b429;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c;
+    --surface: #1e222a;
+    --surface-alt: #262b34;
+    --text: #e6e9ee;
+    --text-muted: #97a1b0;
+    --accent: #68d391;
+    --accent-soft: #223027;
+    --border: #333a45;
+    --today: #33291a;
+    --today-border: #d69e2e;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.site-header {
+  text-align: center;
+  padding: 1.75rem 1rem 0.5rem;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  margin: 0.25rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.month-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.nav-btn {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: background 0.15s, transform 0.1s;
+}
+
+.nav-btn:hover {
+  background: var(--accent-soft);
+}
+
+.nav-btn:active {
+  transform: scale(0.94);
+}
+
+.nav-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+#month-select {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  min-width: 200px;
+  text-align: center;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.6rem;
+}
+
+.weekday {
+  text-align: center;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding-bottom: 0.25rem;
+}
+
+.day-cell {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.6rem;
+  min-height: 110px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.day-cell.empty {
+  background: transparent;
+  border: 1px dashed var(--border);
+  box-shadow: none;
+}
+
+.day-cell.today {
+  background: var(--today);
+  border-color: var(--today-border);
+}
+
+.day-number {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.day-cell.today .day-number {
+  color: var(--today-border);
+}
+
+.dishes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.dishes li {
+  background: var(--accent-soft);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.25rem 0.45rem;
+  font-size: 0.85rem;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 2rem 1rem;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  padding: 1.5rem 1rem 2.5rem;
+}
+
+/* Mobile: stack days as a vertical list */
+@media (max-width: 640px) {
+  .calendar {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .weekday {
+    display: none;
+  }
+
+  .day-cell {
+    min-height: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .day-cell.empty {
+    display: none;
+  }
+
+  .day-number {
+    margin-bottom: 0;
+    min-width: 3.5rem;
+  }
+
+  .day-number::after {
+    content: attr(data-weekday);
+    display: block;
+    font-weight: 400;
+    font-size: 0.75rem;
+  }
+
+  .dishes {
+    flex: 1;
+  }
+}

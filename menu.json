@@ -1,0 +1,29 @@
+{
+  "colegio": "Comedor San Román",
+  "actualizado": "agosto 2026",
+  "meses": {
+    "2026-08": {
+      "3":  ["Pasta corta con salsa fileto", "Fruta"],
+      "4":  ["Medallón de pollo con puré de papas", "Gelatina"],
+      "5":  ["Pizza de muzzarella / tomate", "Turrón"],
+      "6":  ["Ternerita con arroz a la manteca", "Opción: guiso de lentejas", "Fruta"],
+      "7":  ["Pollo crispy con papas doré", "Budín de chocolate"],
+      "10": ["Bastones de merluza con arroz parmesano", "Opción: ensalada mixta", "Fruta"],
+      "11": ["Carne al horno con puré de papas y calabaza", "Duraznos en almíbar"],
+      "12": ["Capeletis con salsa crema y jamón", "Mousse de chocolate"],
+      "13": ["Pizza de muzzarella / huevo", "Helado de agua"],
+      "14": ["Patitas con papas cuña", "Flan de vainilla"],
+      "17": ["Feriado"],
+      "18": ["Pasta corta con salsa mixta", "Fruta"],
+      "19": ["Arroz con pollo y bocaditos de verdura", "Gelatina"],
+      "20": ["Albóndigas con fideos", "Opción: cazuela de lentejas", "Fruta"],
+      "21": ["🎉 Festejo Día del Niño", "Nuggets caseros con puré de papas", "Postre sorpresa"],
+      "24": ["Bastones de merluza con arroz a la manteca", "Fruta"],
+      "25": ["Bondiola braseada con papas en cubos", "Opción: calabazas", "Flan de vainilla"],
+      "26": ["Nuggets caseras con papas", "Gelatina"],
+      "27": ["Ñoquis con filetto", "Fruta"],
+      "28": ["Pizza muzzarella / tomate", "Bizcochuelo de mandarina glaseado"],
+      "31": ["Pasta corta con salsa mixta", "Duraznos en almíbar o fruta"]
+    }
+  }
+}
