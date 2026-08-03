@@ -32,14 +32,33 @@ Para actualizarlo cada mes solo se edita **un archivo**: [`menu.json`](menu.json
    `https://TU-USUARIO.github.io/menu-comedor/`).
 5. Compartí esa URL con las familias. 🎉
 
+## Suscribirse desde Google Calendar
+
+Las familias pueden ver el menú dentro de su propio Google Calendar suscribiéndose
+**una sola vez** a esta dirección (se actualiza sola cada mes):
+
+```
+https://arielschivo.github.io/menu-comedor/menu.ics
+```
+
+- **En la computadora:** Google Calendar → *Otros calendarios* → **＋** → *Suscribirse con URL* → pegar el link.
+- **En el celular:** abrir este link, que ofrece agregarlo directo:
+  `webcal://arielschivo.github.io/menu-comedor/menu.ics`
+
+El archivo `menu.ics` lo genera automáticamente [`generate_ics.py`](generate_ics.py)
+mediante una GitHub Action cada vez que se edita `menu.json`, así que nunca hay
+que tocarlo a mano.
+
 ## Archivos del proyecto
 
-| Archivo                    | Para qué sirve                                        |
-| -------------------------- | ----------------------------------------------------- |
-| [`menu.json`](menu.json)   | **Los datos del menú.** Es el único archivo a editar. |
-| [`index.html`](index.html) | La página.                                            |
-| [`styles.css`](styles.css) | El diseño (colores, calendario, versión celular).     |
-| [`app.js`](app.js)         | El código que arma el calendario a partir del JSON.   |
+| Archivo                                              | Para qué sirve                                          |
+| ---------------------------------------------------- | ------------------------------------------------------- |
+| [`menu.json`](menu.json)                             | **Los datos del menú.** Es el único archivo a editar.   |
+| [`index.html`](index.html)                           | La página.                                              |
+| [`styles.css`](styles.css)                           | El diseño (colores, calendario, versión celular).       |
+| [`app.js`](app.js)                                   | El código que arma el calendario a partir del JSON.     |
+| [`generate_ics.py`](generate_ics.py)                 | Genera `menu.ics` (calendario suscribible) desde el JSON.|
+| [`.github/workflows/build-ics.yml`](.github/workflows/build-ics.yml) | Regenera `menu.ics` solo, al editar el menú. |
 
 ## Probar localmente
 
