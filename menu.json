@@ -1,6 +1,6 @@
 {
   "colegio": "Comedor San Román",
-  "actualizado": "agosto 2026",
+  "actualizado": "septiembre 2026",
   "meses": {
     "2026-08": {
       "3":  ["Pasta corta con salsa fileto", "Fruta"],
@@ -24,6 +24,30 @@
       "27": ["Ñoquis con filetto", "Fruta"],
       "28": ["Pizza muzzarella / tomate", "Bizcochuelo de mandarina glaseado"],
       "31": ["Pasta corta con salsa mixta", "Duraznos en almíbar o fruta"]
+    },
+    "2026-09": {
+      "1":  ["Medallón de pollo con puré de papas y calabaza", "Flan de vainilla"],
+      "2":  ["Pizza de muzzarella / tomate", "Fruta"],
+      "3":  ["Carne al horno con arroz a la parmesana", "Opción: guiso de lentejas", "Budín de naranja"],
+      "4":  ["Chicken fingers con papas rústicas", "Fruta"],
+      "7":  ["Bastones de merluza con puré", "Opción: tomate en cubos", "Fruta"],
+      "8":  ["Carne a la cacerola con arroz", "Gelatina"],
+      "9":  ["Fideos moño con fileto", "Mousse de chocolate"],
+      "10": ["Supremas rebozadas con papas bastón", "Helado de agua"],
+      "11": ["Día del Maestro"],
+      "14": ["Arroz con pollo", "Duraznos en almíbar"],
+      "15": ["Ravioles con salsa mixta", "Fruta"],
+      "16": ["Milanesa de pollo con puré de papas", "Gelatina"],
+      "17": ["Pasta corta con estofado de carne", "Opción: cazuela de lentejas", "Fruta cítrica"],
+      "18": ["Variedad de pizzas", "Flan mixto"],
+      "21": ["🌸 Festejo Día de la Primavera", "Patitas de pollo con arroz", "Postre sorpresa o fruta"],
+      "22": ["Bondiola braseada con papas en cubos", "Opción: calabazas", "Flan de vainilla"],
+      "23": ["Pasta corta con salsa crema", "Opción: filetto", "Gelatina"],
+      "24": ["Bastones de merluza con ensalada de tomate y huevo", "Opción: arroz", "Fruta"],
+      "25": ["Patitas con papas", "Helado de agua"],
+      "28": ["Nuggets caseros con papas cuña", "Fruta"],
+      "29": ["Ñoquis con salsa fileto", "Duraznos en almíbar o fruta"],
+      "30": ["Cazuela de carne y arroz a la crema", "Fruta"]
     }
   }
 }
