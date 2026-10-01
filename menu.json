@@ -1,6 +1,6 @@
 {
   "colegio": "Comedor San Román",
-  "actualizado": "septiembre 2026",
+  "actualizado": "octubre 2026",
   "meses": {
     "2026-08": {
       "3":  ["Pasta corta con salsa fileto", "Fruta"],
@@ -48,6 +48,30 @@
       "28": ["Nuggets caseros con papas cuña", "Fruta"],
       "29": ["Ñoquis con salsa fileto", "Duraznos en almíbar o fruta"],
       "30": ["Cazuela de carne y arroz a la crema", "Fruta"]
+    },
+    "2026-10": {
+      "1":  ["Medallones de pollo con ensalada de tomate y huevo", "Opción: arroz", "Gelatina"],
+      "2":  ["Fiesta de pizzas", "Oblea smack"],
+      "5":  ["Bastones de merluza con arroz a la manteca", "Fruta"],
+      "6":  ["Capeletis con salsa fileto", "Ensalada de frutas"],
+      "7":  ["Supremas con ensalada de tomate, papa y huevo", "Opción: arroz", "Helado de agua"],
+      "8":  ["Comida de bodegón: carne tiernizada con fideos codito", "Budín de mandarina"],
+      "9":  ["Pollo crispy con papas doré", "Fruta"],
+      "12": ["Feriado"],
+      "13": ["Fideos moñito con salsa cheddar o fileto", "Duraznos en almíbar"],
+      "14": ["Milanesa de ternera con ensalada mixta", "Fruta"],
+      "15": ["Cazuela de arroz con pollo", "Mousse de chocolate"],
+      "16": ["Patitas con papas", "Helado"],
+      "19": ["Ravioles con salsa pomarola", "Fruta"],
+      "20": ["Bastones de merluza con puré de papas y calabaza", "Flan de vainilla"],
+      "21": ["Pizza de muzzarella / tomate / huevo", "Fruta"],
+      "22": ["Tallarines con salsa bolognesa (carne cortada a cuchillo)", "Gelatina"],
+      "23": ["Chicken fingers con puré", "Opción: tomate cubeteado", "Helado"],
+      "26": ["Pasta corta con fileto, cheddar o salteado de vegetales", "Fruta"],
+      "27": ["Cazuela de arroz con carne desmechada", "Duraznos en almíbar"],
+      "28": ["Nuggets caseros con ensalada tricolor (lentejas)", "Arrollado de DDL"],
+      "29": ["Ñoquis del 29", "Fruta"],
+      "30": ["Pizzetas muzzarella", "Gelatina"]
     }
   }
 }
