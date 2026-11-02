@@ -1,6 +1,6 @@
 {
   "colegio": "Comedor San Román",
-  "actualizado": "octubre 2026",
+  "actualizado": "noviembre 2026",
   "meses": {
     "2026-08": {
       "3":  ["Pasta corta con salsa fileto", "Fruta"],
@@ -72,6 +72,29 @@
       "28": ["Nuggets caseros con ensalada tricolor (lentejas)", "Arrollado de DDL"],
       "29": ["Ñoquis del 29", "Fruta"],
       "30": ["Pizzetas muzzarella", "Gelatina"]
+    },
+    "2026-11": {
+      "2":  ["Bastones de merluza con arroz a la parmesana", "Opción: tomate en cubos", "Fruta"],
+      "3":  ["Pasta corta con salsa fileto", "Helado de agua"],
+      "4":  ["Bondiola con ensalada de papa y huevo", "Frutillas con jugo de naranja"],
+      "5":  ["Comida de bodegón: ñoquis a la bolognesa", "Gelatina"],
+      "6":  ["Pollo crispy con papas bastón", "Fruta"],
+      "9":  ["Feriado"],
+      "10": ["Feriado"],
+      "11": ["Pasta corta con salsa rosa o cheddar", "Fruta"],
+      "12": ["Pizzas de muzzarella / cebolla", "Flan de vainilla"],
+      "13": ["Mc Meeting: nuggets con papas", "Palito bombón helado"],
+      "16": ["Ravioles con salsa crema", "Fruta"],
+      "17": ["Bondiola braseada con ensalada mixta", "Opción: arroz", "Gelatina"],
+      "18": ["Pizza de muzzarella / tomate / huevo", "Fruta"],
+      "19": ["Comida de bodegón: albóndigas (doble cocción) con arroz", "Ensalada de frutas"],
+      "20": ["Chicken fingers con papas españolas", "Helado"],
+      "23": ["Feriado"],
+      "24": ["Pasta corta con fileto, cheddar o salteado de vegetales", "Frutillas con jugo de naranja"],
+      "25": ["Milanesa con puré de papas", "Opción: ensalada", "Gelatina"],
+      "26": ["Variedad de pizzas", "Fruta"],
+      "27": ["Patitas con papas doré", "Helado"],
+      "30": ["Tallarines con salsa mixta", "Fruta"]
     }
   }
 }
